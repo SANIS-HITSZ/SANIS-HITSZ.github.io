@@ -9,56 +9,18 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+教育经历：
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2005-2009 哈尔滨工业大学电子与信息工程学院，博士学位
+* 2003-2005 哈尔滨工业大学电子与信息工程学院，硕士学位
+* 1999-2003 哈尔滨工业大学通信工程系，本科
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+# 研究与工作经历：
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 2020.1-至今 哈尔滨工业大学（深圳），教授，博士生导师
+* 2018.11-至今 哈尔滨工业大学（深圳）电子与信息工程学院，副院长
+* 2017.4-2019.12 哈尔滨工业大学（深圳），副教授，博士生导师
+* 2013.8-2019.12 哈尔滨工业大学深圳研究生院，副教授，硕士生导师
+* 2012-2014 美国南加州大学电子工程系，博士后/访问学者
+* 2012.5-2013.7 哈尔滨工业大学深圳研究生院，助理教授，硕士生导师
+* 2010-2012 哈尔滨工业大学深圳研究生院，博士后
