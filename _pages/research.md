@@ -9,7 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-研究方向
 ======
 
 ### 通信感知与定位一体化技术
