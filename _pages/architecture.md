@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "组织架构"
+# title: "组织架构"
 permalink: /architecture/
 author_profile: true
 redirect_from:
