@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "产学研合作"
+# title: "产学研合作"
 permalink: /collaboration/
 author_profile: true
 redirect_from:
