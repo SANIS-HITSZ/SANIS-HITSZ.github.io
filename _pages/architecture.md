@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "实验室组织架构"
+# title: "实验室组织架构"
 permalink: /architecture/
 author_profile: true
 redirect_from:
@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-
+实验室组织架构
 ======
 
 # 实验室领导
