@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-新闻动态
+
 ======
 * 课题组部分成果演示（不定期更新）: https://space.bilibili.com/455733610/video
 
