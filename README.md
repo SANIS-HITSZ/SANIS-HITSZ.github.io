@@ -89,4 +89,4 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 </div>
 
 # 资源关联
-视频资源必须要<100M，且src需要
+视频资源必须要<100M，且视频src需要调用其原始文件地址，将视频上传到github后点击视频文件->右上角raw点击后即默认将原始文件地址复制到剪贴板
