@@ -37,7 +37,7 @@ redirect_from:
 
 [https://jwcn-eurasipjournals.springeropen.com/integration-of-radar-sensing--localization-and-communications](https://jwcn-eurasipjournals.springeropen.com/integration-of-radar-sensing--localization-and-communications)
 
-* 我们在IEEE WCNC 2021上组织了一期关于通信感知一体化的圆桌讨论，欢迎大家关注！https://wcnc2021.ieee-wcnc.org/panels#p3
+* 我们在IEEE WCNC 2021上组织了一期关于通信感知一体化的圆桌讨论，欢迎大家关注！[https://wcnc2021.ieee-wcnc.org/panels#p3](https://wcnc2021.ieee-wcnc.org/panels#p3)
 
 * 我们在IEEE Communications Magazine上组织了一期关于无线定位技术在5G/B5G中的应用专刊“Location Awareness for 5G and Beyond”，截稿日为5月1日，欢迎大家关注！
 
