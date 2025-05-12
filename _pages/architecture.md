@@ -2,7 +2,7 @@
 layout: archive
 # title: "实验室组织架构"
 permalink: /architecture/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
