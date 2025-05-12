@@ -2,7 +2,7 @@
 layout: archive
 title: "新闻动态"
 permalink: /news/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---

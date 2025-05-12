@@ -2,7 +2,7 @@
 layout: archive
 # title: "实验室简介"
 permalink: /introduction/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
