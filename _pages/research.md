@@ -13,6 +13,7 @@ redirect_from:
 ## 通信感知与定位一体化技术
 <video width="800" height="450" controls>
   <source src="./search_videos/21a2ae84121fcbca9584ebb2247d4ab5.mp4"  type="video/mp4">
+  浏览器不支持video
 </video>
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114459989248308&bvid=BV1jSVUznESL&cid=29818816059&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; microphone;" style="width: 800px; height: 450px;"></iframe>
