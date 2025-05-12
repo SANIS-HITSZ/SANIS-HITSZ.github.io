@@ -2,7 +2,7 @@
 layout: archive
 # title: "产学研合作"
 permalink: /collaboration/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
