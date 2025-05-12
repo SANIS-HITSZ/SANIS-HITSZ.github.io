@@ -8,5 +8,5 @@ redirect_from:
 ---
 {% include base_path %}
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114459989248308&bvid=BV1jSVUznESL&cid=29818816059&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 
