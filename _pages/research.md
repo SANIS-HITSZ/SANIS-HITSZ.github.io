@@ -14,10 +14,9 @@ redirect_from:
 
 <video width="800" height="450" controls>
   <source src="//player.bilibili.com/player.html?isOutside=true&aid=393554461&bvid=BV1Sd4y1H744&cid=987916835&p=1"  type="video/mp4">
-  浏览器不支持video
 </video>
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114459989248308&bvid=BV1jSVUznESL&cid=29818816059&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; microphone;" style="width: 800px; height: 450px;"></iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114459989248308&bvid=BV1jSVUznESL&cid=29818816059&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" autoplay="false" allow="fullscreen; microphone;" style="width: 800px; height: 450px;"></iframe>
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114426753583916&bvid=BV1eQGbzWE4o&cid=29718480686&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 800px; height: 450px;"></iframe>
 
