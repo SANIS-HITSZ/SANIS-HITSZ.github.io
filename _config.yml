@@ -234,8 +234,9 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
-      read_time: true
+      author_profile: false # 禁用作者简介（会占用左边栏）
+      sidebar: false        # 禁用侧边栏
+      read_time: false 
       comments: true
       share: true
       related: true
@@ -246,6 +247,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      sidebar: false # 禁用侧边栏
   # _teaching
   - scope:
       path: ""
