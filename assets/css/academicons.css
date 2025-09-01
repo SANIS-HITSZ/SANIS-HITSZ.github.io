@@ -569,3 +569,14 @@ border-radius: .1em;
 .ai-inverse {
   color: #fff;
 }
+iframe,
+video {
+  width: 100% !important;
+  max-width: 800px;
+  height: auto !important;
+  aspect-ratio: 16 / 9; /* 保持16:9比例 */
+}
+a {
+  word-break: break-word;   /* 允许在单词内部换行 */
+  overflow-wrap: break-word; /* 新标准写法 */
+}
