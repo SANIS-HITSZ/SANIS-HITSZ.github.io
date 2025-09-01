@@ -14,17 +14,17 @@ main:
   - title: "新闻动态"
     url: /news/    
 
-  - title: "研究方向"
+  - title: "人员构成"
+    url: /architecture/
+
+  - title: "实验室成果"
     url: /research/    
     
   #- title: "Portfolio"
   #  url: /portfolio/
         
-  - title: "组织架构"
-    url: /architecture/
-    
-  - title: "产学研合作"
-    url: /collaboration/
+  # - title: "产学研合作"
+  #   url: /collaboration/
 
   # - title: "Rewards"
   #   url: /rewards/    

@@ -1,6 +1,6 @@
 ---
-layout: archive
-title: "新闻动态"
+# layout: archive
+# title: "新闻动态"
 permalink: /news/
 author_profile: false
 sidebar: false
@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-
+新闻动态
 =========
 * 课题组部分成果演示（不定期更新）: [https://space.bilibili.com/455733610/video](https://space.bilibili.com/455733610/video)
 

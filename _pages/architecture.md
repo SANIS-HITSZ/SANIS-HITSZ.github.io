@@ -1,6 +1,6 @@
 ---
-layout: archive
-# title: "实验室组织架构"
+# layout: archive
+# title: "人员构成"
 permalink: /architecture/
 author_profile: false
 redirect_from:
@@ -9,12 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-实验室组织架构
+人员构成
 ======
 
-## 实验室领导
+<!-- ## 实验室领导
 
 ## 实验室成员
 
-## 学术委员会
+## 学术委员会 -->
+
+## 固定人员
+
+## 流动人员
 

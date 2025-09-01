@@ -1,5 +1,5 @@
 ---
-layout: archive
+# layout: archive
 # title: "产学研合作"
 permalink: /collaboration/
 author_profile: false

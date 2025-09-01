@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: "广东省空天网络与智能感知重点实验室"
+# layout: archive
+# title: "广东省空天网络与智能感知重点实验室"
 author_profile: false
 redirect_from: 
   - /about/
@@ -9,7 +10,8 @@ redirect_from:
 {% include base_path %}
 
 
-
+广东省空天网络与智能感知重点实验室
+======
 
 <div class="slider">
   <img src="/assets/images/image_20250707152638.jpg" alt="图1">
