@@ -21,7 +21,7 @@ When you are initially working on your website, it is very useful to be able to 
 
 1. Clone the repository and made updates as detailed above.
 1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
+   
     On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
     ```bash
     sudo apt install ruby-dev ruby-bundler nodejs
@@ -78,7 +78,7 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 
 ---
 <div align="center">
-    
+
 ![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 [![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
 [![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
@@ -98,4 +98,4 @@ research URL中明确加上 autoplay=0参数，保证视频不会自动播放。
 # 2025/9/1 王翀
 academicons.css 文件新增 iframe,video，a(anchor)使得图片、网址、视频手机端大小自适应。
 # 2025/9/1 王翀
-architecture.md 新增刘凡学姐图片并附上个人主页链接。
+architecture.md 新增固定人员图片并附上个人主页链接。
