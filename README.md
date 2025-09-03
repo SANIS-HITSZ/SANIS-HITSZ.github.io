@@ -97,3 +97,5 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 research URL中明确加上 autoplay=0参数，保证视频不会自动播放。page页加入sidebar==false，但仍有侧边栏。
 # 2025/9/1 王翀
 academicons.css 文件新增 iframe,video，a(anchor)使得图片、网址、视频手机端大小自适应。
+# 2025/9/1 王翀
+architecture.md 新增刘凡学姐图片并附上个人主页链接。

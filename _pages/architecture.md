@@ -19,6 +19,14 @@ redirect_from:
 ## 学术委员会 -->
 
 ## 固定人员
+<figure style="display: inline-block; text-align: center; margin: 0 auto;">
+  <img src="/assets/images/2e7c3ca9bdf8a5b6544da8c0c037620e.jpg" 
+       alt="刘凡" 
+       style="width: 100px; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <a href="https://fanliu.github.io" target="_blank">刘凡</a>
+  </figcaption>
+</figure>
 
 ## 流动人员
 
