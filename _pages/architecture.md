@@ -25,7 +25,7 @@ redirect_from:
        alt="张霆廷" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
-    <b><a href="https://faculty.hitsz.edu.cn/zhangtingting" target="_blank">张霆廷</a></b>（主任）
+    <b><a href="https://faculty.hitsz.edu.cn/zhangtingting" target="_blank">张霆廷（主任）</a></b>
   </figcaption>
 </figure>
 
