@@ -34,7 +34,7 @@ redirect_from:
        alt="刘凡" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
-    <a href="https://fanliu.github.io" target="_blank">刘凡</a>
+    <a href="https://fancy0613.github.io/fanliu.github.io/" target="_blank">刘凡</a>
   </figcaption>
 </figure>
 
