@@ -15,7 +15,7 @@ redirect_from:
 本成果以复杂动态系统理论为核心指导思想，依托“一校三区协同、产学研协同、国/境内外协同”的多域协同机制，将哈工大“厚基础、强实践”的人才培养特色与粤港澳大湾区的产业发展需求深度融合，创新性构建了基于复杂动态系统理论的“高时效、强泛化、自演进”的电子信息类拔尖创新人才培养模式。
 
 <video width="800" height="450" controls>
-    <source src="https://github.com/SANIS-HITSZ/SANIS-HITSZ.github.io/raw/refs/heads/cxl_dev/assets/video/306a1c107556188d59ace8fcd8a6a88a.mp4&autoplay=0"  type="video/mp4">
+    <source src="https://github.com/SANIS-HITSZ/SANIS-HITSZ.github.io/raw/refs/heads/cxl_dev/assets/video/306a1c107556188d59ace8fcd8a6a88a.mp4"  type="video/mp4">
   </video>
 
 传统标准化培养方案无法满足快速变化环境下的多样化人才培养需求。本成果通过培养模式创新、课程建设与思政育人的多级联动调控，构建了面向学术、工程、经济与社会需求的四类杰出人才分类培养方案，实现培养目标的精准定位和个性化发展，形成从基础研究到工程实践、从经济发展到社会需求的多层次、多维度的多样化人才培养方案，为快速变化环境下的多样化人才培养奠定了基础。
