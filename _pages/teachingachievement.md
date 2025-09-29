@@ -63,7 +63,7 @@ redirect_from:
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
   <img src="/assets/images/zhangchiya.png" 
        alt="张驰亚" 
-       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+       style="width: 120px; height: 160px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
     <b><a href="https://faculty.hitsz.edu.cn/zhangchiya" target="_blank">张驰亚</a></b>
   </figcaption>
@@ -124,7 +124,14 @@ redirect_from:
 </figure>
 
 
-**成果完成单位**：哈尔滨工业大学（深圳），哈尔滨工业大学，哈尔滨工业大学（威海），香港中文大学（深圳）
+**成果完成单位**：<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="/assets/images/11a5f9ba9a64f9516c2deec4db44be57.png" 
+       alt="张霆廷" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://faculty.hitsz.edu.cn/zhangtingting" target="_blank">张霆廷</a></b>
+  </figcaption>
+</figure>哈尔滨工业大学（深圳），哈尔滨工业大学，哈尔滨工业大学（威海），香港中文大学（深圳）
 ## 成果简介
 &emsp;&emsp;本成果以复杂动态系统理论为核心指导思想，依托“一校三区协同、产学研协同、国/境内外协同”的多域协同机制，将哈工大“厚基础、强实践”的人才培养特色与粤港澳大湾区的产业发展需求深度融合，创新性构建了基于复杂动态系统理论的“高时效、强泛化、自演进”的电子信息类拔尖创新人才培养模式。
 <video width="800" height="450" controls>
