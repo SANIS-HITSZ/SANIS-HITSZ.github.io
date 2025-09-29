@@ -79,7 +79,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/chenzihao.png 
+  <img src="/assets/images/chenzihao.png" 
        alt="陈梓浩" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
