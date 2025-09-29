@@ -14,7 +14,115 @@ redirect_from:
 =========
 **成果名称**：“高时效-强泛化-自演进”的电子信息类拔尖创新人才培养模式探索与实践
 
-**成果完成人**：张霆廷，高林，朱旭，顾术实，罗晶晶，张驰亚，史瑶，陈梓浩，吴宣利，刘功亮，何晨光，张晔，罗元，侯芬
+**成果完成人**：
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="/assets/images/11a5f9ba9a64f9516c2deec4db44be57.png" 
+       alt="张霆廷" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://faculty.hitsz.edu.cn/zhangtingting" target="_blank">张霆廷</a></b>
+  </figcaption>
+</figure>
+
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="/assets/images/gaolin.jpg" 
+       alt="高林" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://faculty.hitsz.edu.cn/gaolin" target="_blank">高林</a></b>
+  </figcaption>
+</figure>
+
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="assets/images/zhuxu.png" 
+       alt="朱旭" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://faculty.hitsz.edu.cn/zhuxu" target="_blank">朱旭</a></b>
+  </figcaption>
+</figure>
+
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="assets/images/gushushi.png" 
+       alt="顾术实" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://faculty.hitsz.edu.cn/gushushi" target="_blank">顾术实</a></b>
+  </figcaption>
+</figure>
+
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="assets/images/luojingjing.png" 
+       alt="罗晶晶" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://faculty.hitsz.edu.cn/luojingjing" target="_blank">罗晶晶</a></b>
+  </figcaption>
+</figure>
+
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="assets/images/zhangchiya.png" 
+       alt="张驰亚" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://faculty.hitsz.edu.cn/zhangchiya" target="_blank">张驰亚</a></b>
+  </figcaption>
+</figure>
+
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="assets/images/shiyao.png" 
+       alt="史瑶" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://faculty.hitsz.edu.cn/shiyao" target="_blank">史瑶</a></b>
+  </figcaption>
+</figure>
+
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="/assets/images/chenzihao.jpg" 
+       alt="陈梓浩" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://faculty.hitsz.edu.cn/chenzihao" target="_blank">陈梓浩</a></b>
+  </figcaption>
+</figure>
+
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="assets/images/wuxuanli.png" 
+       alt="吴宣利" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://homepage.hit.edu.cn/wuxuanli?lang=zh" target="_blank">吴宣利</a></b>
+  </figcaption>
+</figure>
+
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="assets/images/hechenguang.png" 
+       alt="何晨光" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://homepage.hit.edu.cn/hechenguang?lang=zh" target="_blank">何晨光</a></b>
+  </figcaption>
+</figure>
+
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="assets/images/non.jpg" 
+       alt="张晔" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://homepage.hit.edu.cn/forbidden.do?u=%E5%BC%A0%E6%99%94&url=zhangye2020" target="_blank">张晔</a></b>
+  </figcaption>
+</figure>
+
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="assets/images/luoyuan.png" 
+       alt="罗元" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://sse.cuhk.edu.cn/faculty/luoyuan" target="_blank">罗元</a></b>
+  </figcaption>
+</figure>
+
 
 **成果完成单位**：哈尔滨工业大学（深圳），哈尔滨工业大学，哈尔滨工业大学（威海），香港中文大学（深圳）
 ## 成果简介
