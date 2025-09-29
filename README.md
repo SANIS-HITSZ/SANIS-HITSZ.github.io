@@ -89,7 +89,7 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 </div>
 
 # 资源关联
-视频资源必须要<100M，且视频src需要调用其原始文件地址，将视频上传到github后点击视频文件->右上角raw点击后即默认将原始文件地址复制到剪贴板
+视频资源必须要<100M，且视频src需要调用其原始文件地址，将视频上传到github后点击视频文件->右上角raw右击选择复制链接地址即可将原始文件地址复制到剪贴板
 
 # 2025/7/7 王翀
 首页新增滚动图片，原路径图片无法加载新增\assets\images路径存放图片。
