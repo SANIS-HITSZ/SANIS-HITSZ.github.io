@@ -34,7 +34,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="assets/images/zhuxu.png" 
+  <img src="/assets/images/zhuxu.png" 
        alt="朱旭" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -43,7 +43,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="assets/images/gushushi.png" 
+  <img src="/assets/images/gushushi.png" 
        alt="顾术实" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -52,7 +52,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="assets/images/luojingjing.png" 
+  <img src="/assets/images/luojingjing.png" 
        alt="罗晶晶" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -61,7 +61,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="assets/images/zhangchiya.png" 
+  <img src="/assets/images/zhangchiya.png" 
        alt="张驰亚" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -70,7 +70,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="assets/images/shiyao.png" 
+  <img src="/assets/images/shiyao.png" 
        alt="史瑶" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -88,7 +88,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="assets/images/wuxuanli.png" 
+  <img src="/assets/images/wuxuanli.png" 
        alt="吴宣利" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -97,7 +97,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="assets/images/hechenguang.png" 
+  <img src="/assets/images/hechenguang.png" 
        alt="何晨光" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -106,7 +106,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="assets/images/non.jpg" 
+  <img src="/assets/images/non.jpg" 
        alt="张晔" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -115,7 +115,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="assets/images/luoyuan.png" 
+  <img src="/assets/images/luoyuan.png" 
        alt="罗元" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
