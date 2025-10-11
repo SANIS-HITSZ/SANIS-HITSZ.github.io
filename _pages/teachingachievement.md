@@ -2,7 +2,7 @@
 # layout: archive
 title: "广东省优秀教学成果奖"
 permalink: /teachingachievement/
-author_profile: true
+author_profile: false
 sidebar: false
 redirect_from:
   - /resume
