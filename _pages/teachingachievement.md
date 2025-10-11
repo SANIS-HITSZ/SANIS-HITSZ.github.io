@@ -3,7 +3,7 @@
 title: "广东省优秀教学成果奖"
 permalink: /teachingachievement/
 author_profile: false
-sidebar: false
+# sidebar: false
 redirect_from:
   - /resume
 ---
