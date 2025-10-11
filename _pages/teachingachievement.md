@@ -16,7 +16,7 @@ redirect_from:
 
 ### 成果完成人
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/11a5f9ba9a64f9516c2deec4db44be57.png" 
+  <img src="/assets/images/authors/11a5f9ba9a64f9516c2deec4db44be57.png" 
        alt="张霆廷" 
        style="width: 120px; height: 160px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 16px; color: gray; margin-top: 5px; text-align: center;">
@@ -25,7 +25,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/gaolin.png" 
+  <img src="/assets/images/authors/gaolin.png" 
        alt="高林" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -34,7 +34,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/zhuxu.png" 
+  <img src="/assets/images/authors/zhuxu.png" 
        alt="朱旭" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -43,7 +43,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/gushushi.png" 
+  <img src="/assets/images/authors/gushushi.png" 
        alt="顾术实" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -52,7 +52,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/luojingjing.png" 
+  <img src="/assets/images/authors/luojingjing.png" 
        alt="罗晶晶" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -61,7 +61,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/zhangchiya.png" 
+  <img src="/assets/images/authors/zhangchiya.png" 
        alt="张驰亚" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -70,7 +70,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/shiyao.png" 
+  <img src="/assets/images/authors/shiyao.png" 
        alt="史瑶" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -79,7 +79,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/chenzihao.png" 
+  <img src="/assets/images/authors/chenzihao.png" 
        alt="陈梓浩" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -88,7 +88,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/jiaojian.png" 
+  <img src="/assets/images/authors/jiaojian.png" 
        alt="焦健" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -97,7 +97,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/luoyuan.png" 
+  <img src="/assets/images/authors/luoyuan.png" 
        alt="罗元" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -106,7 +106,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/wuxuanli.png" 
+  <img src="/assets/images/authors/wuxuanli.png" 
        alt="吴宣利" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -115,7 +115,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/hechenguang.png" 
+  <img src="/assets/images/authors/hechenguang.png" 
        alt="何晨光" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -124,7 +124,7 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/non.jpg" 
+  <img src="/assets/images/authors/non.jpg" 
        alt="张晔" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
@@ -153,7 +153,16 @@ redirect_from:
 </figure>
 
 ## 成果简介
-&emsp;&emsp;本成果以复杂动态系统理论为核心指导思想，依托“一校三区协同、产学研协同、国/境内外协同”的多域协同机制，将哈工大“厚基础、强实践”的人才培养特色与粤港澳大湾区的产业发展需求深度融合，创新性构建了基于复杂动态系统理论的“高时效、强泛化、自演进”的电子信息类拔尖创新人才培养模式。
+
+### 教学问题背景
+&emsp;&emsp;本团队自2016年起对电子信息类人才培养模式进行了系统性改造和升级。在哈尔滨工业大学原有培养体系的基础上，充分融合大湾区的产业特点，以培养“厚基础、强实践、重创新、宽视野”的电子信息类拔尖创新人才为目标，围绕“如何在多维时空约束下构建高时效、强泛化、自演进的电子信息人才培养模式”这一关键科学问题，开展了充分的探索与实践，解决了以下四个方面的教学问题：
+培养方案与知识体系滞后，未能有效接轨电子信息产业前沿；
+	师资队伍学科背景单一，难以培养跨学科复合交叉型人才；
+	创新实践缺乏体系化建设，制约学生多元综合素质的全面提升；
+	单方向“送出去”的国际合作模式单一，难以适应新国际形势下宽视野的人才培养需求。
+![fig1](/assets/images/fig/fig1.png)
+### 成果概述
+&emsp;&emsp;本成果创新性地以复杂动态系统理论为核心指导思想，依托“一校三区协同、产学研协同、国/境内外协同”的多域协同机制，通过设计和优化宏观、中观、微观不同层次的决策变量，实现培养方案、师资队伍、创新实践、国际合作四大模块的分级闭环调控与实时精准反馈，将哈工大“厚基础、强实践”的人才培养特色与粤港澳大湾区的产业发展需求深度融合，创新性构建了基于复杂动态系统理论的“高时效、强泛化、自演进”的电子信息类拔尖创新人才培养模式。
 <video width="800" height="450" controls>
     <source src="https://github.com/SANIS-HITSZ/SANIS-HITSZ.github.io/raw/refs/heads/cxl_dev/assets/video/306a1c107556188d59ace8fcd8a6a88a.mp4"  type="video/mp4">
   </video>

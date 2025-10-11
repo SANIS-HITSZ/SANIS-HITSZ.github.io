@@ -102,3 +102,7 @@ architecture.md 新增固定人员图片并附上个人主页链接。
 # 2025/10/11 陈星霖
 新增教学成果奖页面成果完成人部分及相关信息
 新增侧边栏导航，引入语句{% include toc %}
+bug:侧边栏宽度问题（可以通过更新仓库或在\_sass\_themes.scss中的一下几行语句进行修改）
+$right-sidebar-width-narrow : auto;
+$right-sidebar-width        : auto;
+$right-sidebar-width-wide   : auto;
