@@ -2,8 +2,8 @@
 # layout: archive
 title: "广东省优秀教学成果奖"
 permalink: /teachingachievement/
-author_profile: false
-# sidebar: false
+author_profile: true
+sidebar: false
 redirect_from:
   - /resume
 ---
@@ -178,7 +178,7 @@ redirect_from:
 ## 成果应用成效
 &emsp;&emsp;本教学成果自2021年5月推广以来，相关的创新人才培养模式及理念已辐射至国内20余所高校，包括上海交通大学、西安交通大学、电子科技大学、中山大学等多所985高校。截至目前，成果覆盖学生累计超过**2万人**，并获得同行专家的广泛认可与采纳，有效赋能合作院校的人才培养质量提升，并获得获得了国内外权威媒体的持续关注与广泛报道。
 
-### 相关报道链接： 
+### 相关报道链接 
 
 [https://appdetail.netwin.cn/dc-h5s/dc_new/newdetail?id=s68ca9e16e4b0da3882d0326b](https://appdetail.netwin.cn/dc-h5s/dc_new/newdetail?id=s68ca9e16e4b0da3882d0326b)
 
