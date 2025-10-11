@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+{% include toc %}
 广东省优秀教学成果奖
 =========
 **成果名称**：“高时效-强泛化-自演进”的电子信息类拔尖创新人才培养模式探索与实践
@@ -134,7 +134,7 @@ redirect_from:
   </figcaption>
 </figure>
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets\images\hongkonglogo.png" 
+<img src="/assets/images/hongkonglogo.png" 
        alt="香港中文大学" 
        style="width: 120px; height: 120px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
