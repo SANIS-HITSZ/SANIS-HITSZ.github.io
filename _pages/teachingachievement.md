@@ -1,6 +1,6 @@
 ---
 # layout: archive
-title: "广东省优秀教学成果奖"
+title: "“高时效-强泛化-自演进”的电子信息类拔尖创新人才培养模式探索与实践"
 permalink: /teachingachievement/
 author_profile: false
 sidebar: false
@@ -11,9 +11,6 @@ redirect_from:
 {% include base_path %}
 {% include toc %}
 ## 成果信息
-### 成果名称
-“高时效-强泛化-自演进”的电子信息类拔尖创新人才培养模式探索与实践
-
 ### 成果完成人
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
   <img src="/assets/images/authors/11a5f9ba9a64f9516c2deec4db44be57.png" 
