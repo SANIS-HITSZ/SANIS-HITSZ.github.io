@@ -99,3 +99,6 @@ research URL中明确加上 autoplay=0参数，保证视频不会自动播放。
 academicons.css 文件新增 iframe,video，a(anchor)使得图片、网址、视频手机端大小自适应。
 # 2025/9/1 王翀
 architecture.md 新增固定人员图片并附上个人主页链接。
+# 2025/10/11 陈星霖
+新增教学成果奖页面成果完成人部分及相关信息
+新增侧边栏导航，引入语句{% include toc %}

@@ -1,6 +1,6 @@
 ---
 # layout: archive
-# title: "广东省教学成果奖"
+title: "广东省优秀教学成果奖"
 permalink: /teachingachievement/
 author_profile: false
 sidebar: false
@@ -10,11 +10,10 @@ redirect_from:
 
 {% include base_path %}
 {% include toc %}
-广东省优秀教学成果奖
-=========
-**成果名称**：“高时效-强泛化-自演进”的电子信息类拔尖创新人才培养模式探索与实践
+## 成果信息
+### 成果名称：“高时效-强泛化-自演进”的电子信息类拔尖创新人才培养模式探索与实践
 
-**成果完成人**：
+### 成果完成人
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
   <img src="/assets/images/11a5f9ba9a64f9516c2deec4db44be57.png" 
        alt="张霆廷" 
@@ -88,6 +87,24 @@ redirect_from:
 </figure>
 
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="/assets/images/jiaojian.png" 
+       alt="焦健" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://homepage.hit.edu.cn/jiaojian?lang=zh" target="_blank">焦健</a></b>
+  </figcaption>
+</figure>
+
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
+  <img src="/assets/images/luoyuan.png" 
+       alt="罗元" 
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
+    <b><a href="https://sse.cuhk.edu.cn/faculty/luoyuan" target="_blank">罗元</a></b>
+  </figcaption>
+</figure>
+
+<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
   <img src="/assets/images/wuxuanli.png" 
        alt="吴宣利" 
        style="width: 100px; height: 130px; display: block; margin: 0 auto;">
@@ -114,17 +131,10 @@ redirect_from:
   </figcaption>
 </figure>
 
-<figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
-  <img src="/assets/images/luoyuan.png" 
-       alt="罗元" 
-       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
-  <figcaption style="font-size: 14px; color: gray; margin-top: 5px; text-align: center;">
-    <b><a href="https://sse.cuhk.edu.cn/faculty/luoyuan" target="_blank">罗元</a></b>
-  </figcaption>
-</figure>
 
 
-**成果完成单位**：
+
+### 成果完成单位
 哈尔滨工业大学（深圳），哈尔滨工业大学，哈尔滨工业大学（威海），香港中文大学（深圳）
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
   <img src="/assets/images/hitlogo.png" 
@@ -152,17 +162,22 @@ redirect_from:
 
 &emsp;&emsp;本成果通过培养模式创新、课程建设与思政育人的多级联动调控，构建了面向学术、工程、经济与社会需求的四类杰出人才分类培养方案，实现培养目标的精准定位和个性化发展，形成从基础研究到工程实践、从经济发展到社会需求的多层次、多维度的多样化人才培养方案，为快速变化环境下的多样化人才培养奠定了基础。
 
-**培养方案构建方面**：本成果通过培养模式创新、课程建设与思政育人的多级联动调控，构建了面向学术、工程、经济与社会需求的四类杰出人才分类培养方案，实现培养目标的精准定位和个性化发展，形成从基础研究到工程实践、从经济发展到社会需求的多层次、多维度的多样化人才培养方案，为快速变化环境下的多样化人才培养奠定了基础。近年来，团队累计获得3项一流本科课程认定，团队累计出版教材和专著5本（**省级优秀教材2项**），认定思政示范课程4项（**国家级1项**、**省部级2项**、市级1项）
+### 培养方案构建方面
+&emsp;&emsp;本成果通过培养模式创新、课程建设与思政育人的多级联动调控，构建了面向学术、工程、经济与社会需求的四类杰出人才分类培养方案，实现培养目标的精准定位和个性化发展，形成从基础研究到工程实践、从经济发展到社会需求的多层次、多维度的多样化人才培养方案，为快速变化环境下的多样化人才培养奠定了基础。近年来，团队累计获得3项一流本科课程认定，团队累计出版教材和专著5本（**省级优秀教材2项**），认定思政示范课程4项（**国家级1项**、**省部级2项**、市级1项）
 
-**师资队伍建设方面**：本成果通过跨校区教师协同发展、海内外人才引进、科教产业联动等多元渠道驱动（图5），推动了师资队伍的多样化建设，拓展了人才引育路径，促进了产业发展与人才培养的深度融合，构建起引进与培养并重、多学科交叉融合的高质量师资体系，为跨学科复合交叉型人才培养提供了坚实的保障。团队近年来主持人才项目共13项，培育国家级人才4人、省部级人才5人；引进国家级人才4人。
+### 师资队伍建设方面
+&emsp;&emsp;本成果通过跨校区教师协同发展、海内外人才引进、科教产业联动等多元渠道驱动（图5），推动了师资队伍的多样化建设，拓展了人才引育路径，促进了产业发展与人才培养的深度融合，构建起引进与培养并重、多学科交叉融合的高质量师资体系，为跨学科复合交叉型人才培养提供了坚实的保障。团队近年来主持人才项目共13项，培育国家级人才4人、省部级人才5人；引进国家级人才4人。
 
-**创新实践培养方面**：本成果通过全周期贯通、产学协同和科教融合等多层次创新实践能力培养，构建了一体化贯通式的科产教融合创新实践模式，实现了学生创新思维与实践能力的双向提升，促进了学科之间的深度合作与资源共享，为培养具备多元综合能力的高素质产业人才奠定了坚实基础。学院以哈工大深厚的工科基础为“根”，以深圳的产业需求为“壤”，持续培养高质量的电子信息人才。学院在广东省教育厅、科技厅相关项目的支撑条件下，以研促教，实现产学研高度融合；与高新企业建立校企联合实验室、校外实习基地等产学研平台，深度融合培养拔尖创新人才。
+### 创新实践培养方面
+&emsp;&emsp;本成果通过全周期贯通、产学协同和科教融合等多层次创新实践能力培养，构建了一体化贯通式的科产教融合创新实践模式，实现了学生创新思维与实践能力的双向提升，促进了学科之间的深度合作与资源共享，为培养具备多元综合能力的高素质产业人才奠定了坚实基础。学院以哈工大深厚的工科基础为“根”，以深圳的产业需求为“壤”，持续培养高质量的电子信息人才。学院在广东省教育厅、科技厅相关项目的支撑条件下，以研促教，实现产学研高度融合；与高新企业建立校企联合实验室、校外实习基地等产学研平台，深度融合培养拔尖创新人才。
 
-**国际合作育人方面**：本成果通过内部出口、外部引入以及内外协同等方式，打破国际壁垒与封锁，实现了动态自适应的内外协同育人方案，促进了人才培养模式的国际化和多元化发展，为新国际形势下具备广阔国际视野的国际化人才培养提供了新的路径。团队近年来主持国际合作项目共12项，其中中外合作办学项目1项（校区首个），世界顶尖大学战略合作计划6项、学生联合培养项目1项、港澳联合实验室（研究中心）建设项目4项。
+### 国际合作育人方面
+&emsp;&emsp;本成果通过内部出口、外部引入以及内外协同等方式，打破国际壁垒与封锁，实现了动态自适应的内外协同育人方案，促进了人才培养模式的国际化和多元化发展，为新国际形势下具备广阔国际视野的国际化人才培养提供了新的路径。团队近年来主持国际合作项目共12项，其中中外合作办学项目1项（校区首个），世界顶尖大学战略合作计划6项、学生联合培养项目1项、港澳联合实验室（研究中心）建设项目4项。
 
-**成果应用成效**：本教学成果自2021年5月推广以来，相关的创新人才培养模式及理念已辐射至国内20余所高校，包括上海交通大学、西安交通大学、电子科技大学、中山大学等多所985高校。截至目前，成果覆盖学生累计超过**2万人**，并获得同行专家的广泛认可与采纳，有效赋能合作院校的人才培养质量提升，并获得获得了国内外权威媒体的持续关注与广泛报道。
+## 成果应用成效
+&emsp;&emsp;本教学成果自2021年5月推广以来，相关的创新人才培养模式及理念已辐射至国内20余所高校，包括上海交通大学、西安交通大学、电子科技大学、中山大学等多所985高校。截至目前，成果覆盖学生累计超过**2万人**，并获得同行专家的广泛认可与采纳，有效赋能合作院校的人才培养质量提升，并获得获得了国内外权威媒体的持续关注与广泛报道。
 
-相关报道链接： 
+### 相关报道链接： 
 
 [https://appdetail.netwin.cn/dc-h5s/dc_new/newdetail?id=s68ca9e16e4b0da3882d0326b](https://appdetail.netwin.cn/dc-h5s/dc_new/newdetail?id=s68ca9e16e4b0da3882d0326b)
 
