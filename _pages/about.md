@@ -13,6 +13,8 @@ redirect_from:
 广东省空天网络与智能感知重点实验室
 ======
 
+
+
 <div class="image-slider">
   <div class="slides">
     <div class="slide">
@@ -29,15 +31,8 @@ redirect_from:
     </div>
   </div>
   
-  <div class="slider-controls">
-    <button class="prev-btn">← 上一张</button>
-    <span class="slide-counter">1 / 3</span>
-    <button class="next-btn">下一张 →</button>
-  </div>
-  
   <div class="slider-dots">
     <span class="dot active"></span>
-    <span class="dot"></span>
     <span class="dot"></span>
   </div>
 </div>
@@ -51,6 +46,7 @@ redirect_from:
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   background: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  position: relative;
 }
 
 .slides {
@@ -79,69 +75,82 @@ redirect_from:
   background: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 15px 20px;
-}
-
-.caption h3 {
-  margin: 0 0 8px 0;
-  font-size: 1.4rem;
-  color: #4fc3f7;
+  text-align: center;
 }
 
 .caption p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.5;
-}
-
-.slider-controls {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-  background: #f8f9fa;
-  border-top: 1px solid #eee;
-}
-
-.prev-btn, .next-btn {
-  background: #4285f4;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.95rem;
-  transition: background 0.3s;
-}
-
-.prev-btn:hover, .next-btn:hover {
-  background: #3367d6;
-}
-
-.slide-counter {
-  font-size: 0.95rem;
-  color: #5f6368;
+  font-weight: 500;
 }
 
 .slider-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: center;
-  padding: 15px;
-  background: #f8f9fa;
-  border-top: 1px solid #eee;
+  padding: 10px;
 }
 
 .dot {
-  width: 12px;
-  height: 12px;
-  background: #ccc;
+  width: 14px;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
-  margin: 0 6px;
+  margin: 0 8px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: all 0.3s;
+  border: 2px solid transparent;
 }
 
 .dot.active {
-  background: #4285f4;
+  background: white;
+  transform: scale(1.2);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.dot:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* 响应式设计 */
+@media (max-width: 850px) {
+  .image-slider {
+    max-width: 95%;
+  }
+  
+  .slides {
+    height: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .slides {
+    height: 350px;
+  }
+  
+  .caption p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .slides {
+    height: 300px;
+  }
+  
+  .caption {
+    padding: 10px 15px;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    margin: 0 6px;
+  }
 }
 </style>
 
@@ -149,41 +158,58 @@ redirect_from:
 document.addEventListener('DOMContentLoaded', function() {
   const slider = document.querySelector('.slides');
   const slides = document.querySelectorAll('.slide');
-  const prevBtn = document.querySelector('.prev-btn');
-  const nextBtn = document.querySelector('.next-btn');
   const dots = document.querySelectorAll('.dot');
-  const counter = document.querySelector('.slide-counter');
   
   let currentIndex = 0;
   const slideCount = slides.length;
   
+  // 更新滑块位置
   function updateSlider() {
     slider.style.transform = `translateX(-${currentIndex * 100}%)`;
-    counter.textContent = `${currentIndex + 1} / ${slideCount}`;
     
+    // 更新指示点状态
     dots.forEach((dot, index) => {
       dot.classList.toggle('active', index === currentIndex);
     });
   }
   
-  prevBtn.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + slideCount) % slideCount;
-    updateSlider();
-  });
-  
-  nextBtn.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % slideCount;
-    updateSlider();
-  });
-  
+  // 点击指示点跳转
   dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
       currentIndex = index;
       updateSlider();
+      resetAutoPlay(); // 重置自动播放计时器
     });
   });
   
-  // 初始更新
-  updateSlider();
+  // 自动播放功能
+  let autoPlayTimer;
+  
+  function startAutoPlay() {
+    autoPlayTimer = setInterval(() => {
+      currentIndex = (currentIndex + 1) % slideCount;
+      updateSlider();
+    }, 5000); // 每5秒切换一次
+  }
+  
+  function resetAutoPlay() {
+    clearInterval(autoPlayTimer);
+    startAutoPlay();
+  }
+  
+  // 鼠标悬停时暂停自动播放
+  const sliderContainer = document.querySelector('.image-slider');
+  
+  sliderContainer.addEventListener('mouseenter', () => {
+    clearInterval(autoPlayTimer);
+  });
+  
+  // 鼠标离开时恢复自动播放
+  sliderContainer.addEventListener('mouseleave', () => {
+    startAutoPlay();
+  });
+  
+  // 初始化和启动自动播放
+  startAutoPlay();
 });
 </script>
