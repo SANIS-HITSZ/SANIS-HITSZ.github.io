@@ -15,19 +15,15 @@ redirect_from:
 
 
 
-<div class="image-slider">
-  <div class="slides">
+<div class="slider-container">
+  <div class="slider">
     <div class="slide">
       <img src="/assets/images/image_20250707152638.jpg" alt="图1">
-      <div class="caption">
-        <p>实验室挂牌仪式合影</p>
-      </div>
+      <div class="caption">实验室挂牌仪式合影</div>
     </div>
     <div class="slide">
       <img src="/assets/images/image_20250707152730.jpg" alt="图2">
-      <div class="caption">
-        <p>2024届硕士毕业生合影</p>
-      </div>
+      <div class="caption">2024届硕士毕业生合影</div>
     </div>
   </div>
   
@@ -38,26 +34,28 @@ redirect_from:
 </div>
 
 <style>
-.image-slider {
+.slider-container {
   max-width: 800px;
   margin: 2rem auto;
-  border-radius: 12px;
+  position: relative;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  background: white;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  position: relative;
 }
 
-.slides {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
+.slider {
+  width: 100%;
   height: 450px;
+  position: relative;
 }
 
 .slide {
-  min-width: 100%;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
 }
 
 .slide img {
@@ -74,17 +72,31 @@ redirect_from:
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
   color: white;
-  padding: 15px 20px;
+  padding: 12px 20px;
   text-align: center;
-}
-
-.caption p {
-  margin: 0;
   font-size: 1.1rem;
-  line-height: 1.5;
   font-weight: 500;
 }
 
+/* CSS动画关键帧 */
+.slide:nth-child(1) {
+  animation: slideShow 10s infinite;
+}
+
+.slide:nth-child(2) {
+  animation: slideShow 10s infinite;
+  animation-delay: 5s;
+}
+
+@keyframes slideShow {
+  0%   { opacity: 0; z-index: 1; }
+  5%   { opacity: 1; z-index: 1; }
+  45%  { opacity: 1; z-index: 1; }
+  50%  { opacity: 0; z-index: 0; }
+  100% { opacity: 0; z-index: 0; }
+}
+
+/* 指示点样式 */
 .slider-dots {
   position: absolute;
   bottom: 20px;
@@ -93,6 +105,7 @@ redirect_from:
   display: flex;
   justify-content: center;
   padding: 10px;
+  z-index: 2;
 }
 
 .dot {
@@ -118,27 +131,27 @@ redirect_from:
 
 /* 响应式设计 */
 @media (max-width: 850px) {
-  .image-slider {
+  .slider-container {
     max-width: 95%;
   }
   
-  .slides {
+  .slider {
     height: 400px;
   }
 }
 
 @media (max-width: 600px) {
-  .slides {
+  .slider {
     height: 350px;
   }
   
-  .caption p {
+  .caption {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 480px) {
-  .slides {
+  .slider {
     height: 300px;
   }
   
@@ -156,60 +169,42 @@ redirect_from:
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const slider = document.querySelector('.slides');
-  const slides = document.querySelectorAll('.slide');
   const dots = document.querySelectorAll('.dot');
+  const slides = document.querySelectorAll('.slide');
   
-  let currentIndex = 0;
-  const slideCount = slides.length;
-  
-  // 更新滑块位置
-  function updateSlider() {
-    slider.style.transform = `translateX(-${currentIndex * 100}%)`;
-    
-    // 更新指示点状态
-    dots.forEach((dot, index) => {
-      dot.classList.toggle('active', index === currentIndex);
-    });
-  }
-  
-  // 点击指示点跳转
+  // 点击指示点切换图片
   dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
-      currentIndex = index;
-      updateSlider();
-      resetAutoPlay(); // 重置自动播放计时器
+      // 移除所有动画
+      slides.forEach(slide => {
+        slide.style.animation = 'none';
+      });
+      
+      // 更新活动指示点
+      dots.forEach(d => d.classList.remove('active'));
+      dot.classList.add('active');
+      
+      // 重置所有幻灯片为初始状态
+      slides.forEach(slide => {
+        slide.style.opacity = '0';
+        slide.style.zIndex = '0';
+      });
+      
+      // 显示选中的幻灯片
+      slides[index].style.opacity = '1';
+      slides[index].style.zIndex = '1';
+      
+      // 重新启动动画
+      setTimeout(() => {
+        slides.forEach((slide, i) => {
+          if (i === index) {
+            slide.style.animation = `slideShow 10s infinite`;
+          } else {
+            slide.style.animation = `slideShow 10s infinite ${(i - index) * 5}s`;
+          }
+        });
+      }, 50);
     });
   });
-  
-  // 自动播放功能
-  let autoPlayTimer;
-  
-  function startAutoPlay() {
-    autoPlayTimer = setInterval(() => {
-      currentIndex = (currentIndex + 1) % slideCount;
-      updateSlider();
-    }, 5000); // 每5秒切换一次
-  }
-  
-  function resetAutoPlay() {
-    clearInterval(autoPlayTimer);
-    startAutoPlay();
-  }
-  
-  // 鼠标悬停时暂停自动播放
-  const sliderContainer = document.querySelector('.image-slider');
-  
-  sliderContainer.addEventListener('mouseenter', () => {
-    clearInterval(autoPlayTimer);
-  });
-  
-  // 鼠标离开时恢复自动播放
-  sliderContainer.addEventListener('mouseleave', () => {
-    startAutoPlay();
-  });
-  
-  // 初始化和启动自动播放
-  startAutoPlay();
 });
 </script>
