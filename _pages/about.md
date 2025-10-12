@@ -23,13 +23,8 @@ redirect_from:
     </div>
     <div class="slide">
       <img src="/assets/images/image_20250707152730.jpg" alt="图2">
-      <div class="caption">2024届硕士毕业生合影</div>
+      <div class="caption">2024届毕业生合影</div>
     </div>
-  </div>
-  
-  <div class="slider-dots">
-    <span class="dot active"></span>
-    <span class="dot"></span>
   </div>
 </div>
 
@@ -78,55 +73,22 @@ redirect_from:
   font-weight: 500;
 }
 
-/* CSS动画关键帧 */
+/* CSS动画关键帧 - 8秒切换 */
 .slide:nth-child(1) {
-  animation: slideShow 10s infinite;
+  animation: slideShow 16s infinite;
 }
 
 .slide:nth-child(2) {
-  animation: slideShow 10s infinite;
-  animation-delay: 5s;
+  animation: slideShow 16s infinite;
+  animation-delay: 8s;
 }
 
 @keyframes slideShow {
   0%   { opacity: 0; z-index: 1; }
-  5%   { opacity: 1; z-index: 1; }
-  45%  { opacity: 1; z-index: 1; }
-  50%  { opacity: 0; z-index: 0; }
-  100% { opacity: 0; z-index: 0; }
-}
-
-/* 指示点样式 */
-.slider-dots {
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  z-index: 2;
-}
-
-.dot {
-  width: 14px;
-  height: 14px;
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  margin: 0 8px;
-  cursor: pointer;
-  transition: all 0.3s;
-  border: 2px solid transparent;
-}
-
-.dot.active {
-  background: white;
-  transform: scale(1.2);
-  border-color: rgba(0, 0, 0, 0.2);
-}
-
-.dot:hover {
-  background: rgba(255, 255, 255, 0.8);
+  5%   { opacity: 1; z-index: 1; } /* 淡入 */
+  45%  { opacity: 1; z-index: 1; } /* 保持显示 */
+  50%  { opacity: 0; z-index: 0; } /* 淡出 */
+  100% { opacity: 0; z-index: 0; } /* 保持隐藏 */
 }
 
 /* 响应式设计 */
@@ -158,53 +120,5 @@ redirect_from:
   .caption {
     padding: 10px 15px;
   }
-  
-  .dot {
-    width: 12px;
-    height: 12px;
-    margin: 0 6px;
-  }
 }
 </style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const dots = document.querySelectorAll('.dot');
-  const slides = document.querySelectorAll('.slide');
-  
-  // 点击指示点切换图片
-  dots.forEach((dot, index) => {
-    dot.addEventListener('click', () => {
-      // 移除所有动画
-      slides.forEach(slide => {
-        slide.style.animation = 'none';
-      });
-      
-      // 更新活动指示点
-      dots.forEach(d => d.classList.remove('active'));
-      dot.classList.add('active');
-      
-      // 重置所有幻灯片为初始状态
-      slides.forEach(slide => {
-        slide.style.opacity = '0';
-        slide.style.zIndex = '0';
-      });
-      
-      // 显示选中的幻灯片
-      slides[index].style.opacity = '1';
-      slides[index].style.zIndex = '1';
-      
-      // 重新启动动画
-      setTimeout(() => {
-        slides.forEach((slide, i) => {
-          if (i === index) {
-            slide.style.animation = `slideShow 10s infinite`;
-          } else {
-            slide.style.animation = `slideShow 10s infinite ${(i - index) * 5}s`;
-          }
-        });
-      }, 50);
-    });
-  });
-});
-</script>
