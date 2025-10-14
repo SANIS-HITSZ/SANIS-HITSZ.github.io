@@ -193,12 +193,19 @@ redirect_from:
   <div class="slider">
     <div class="slide">
       <img src="/assets/images/cooperation_enterprise/guangfeng.png" alt="图1">
-      <div class="caption">哈工大（深圳）与光峰科技股份有限公司共建实习基地授牌仪式</div>
+      <div class="caption">
+        <a href="https://mp.weixin.qq.com/s/chw_rCxvNehA2W4vkDEjhg" target="_blank" class="caption-link">
+          与光峰科技股份有限公司共建实习基地授牌仪式
+        </a>
+      </div>
     </div>
     <div class="slide">
       <img src="/assets/images/cooperation_enterprise/weixing.jpg" alt="图2">
-      <div class="caption">哈尔滨工业大学（深圳）与上海卫星互联网研究院签署战略合作协议</div>
+      <div class="caption">与上海卫星互联网研究院签署战略合作协议</div>
     </div>
+  </div>
+</div>
+
   </div>
 </div>
 
