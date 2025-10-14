@@ -207,12 +207,32 @@ redirect_from:
 </div>
 
 
+
 ### 国际合作育人
 &emsp;&emsp;本成果通过内部出口、外部引入以及内外协同等方式，打破国际壁垒与封锁，实现了动态自适应的内外协同育人方案，促进了人才培养模式的国际化和多元化发展，为新国际形势下具备广阔国际视野的国际化人才培养提供了新的路径。团队近年来主持国际合作项目共12项，其中中外合作办学项目1项（校区首个），世界顶尖大学战略合作计划6项、学生联合培养项目1项、港澳联合实验室（研究中心）建设项目4项。
 <div style="text-align: center;">
   <img src="/assets/images/diagrams/fig5.png" width="85%">
 </div>
-
+<div class="slider-container">
+  <div class="slider">
+    <div class="slide">
+      <img src="/assets/images/cooperation_international/hanyang_university.png" alt="图1">
+      <div class="caption">
+        <a href="https://mp.weixin.qq.com/s?__biz=MzAwOTU3OTY2NQ==&mid=2652216501&idx=1&sn=f84c8ef29d523401a2afb3f6b3ef5b18&chksm=8110a035c9daface7975abdc0333958366af2d951a3f4f971dd481d925e455405ab4076029ed&scene=27" target="_blank"  class="caption-link">
+          韩国汉阳大学合作办学项目
+        </a>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="/assets/images/cooperation_international/cooperation_plan.png" alt="合作">
+      <div class="caption">
+        <a href="https://mp.weixin.qq.com/s?__biz=MzI1MTQyMDQ3MQ==&mid=2247488149&idx=1&sn=0c3dbd4f9d6fe39568fd91859c79ded4&chksm=e9f218cdde8591dbc61dbff9ba7eb2a7c635cf9b9d496a30457d6863eb92b3fc37d48bd04581&scene=27" target="_blank" class="caption-link">
+        韩国汉阳大学合作办学项目
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 ## 成果应用成效
 
 ### 校内实践成效
