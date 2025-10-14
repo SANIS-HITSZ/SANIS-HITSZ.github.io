@@ -189,7 +189,18 @@ redirect_from:
 <div style="text-align: center;">
   <img src="/assets/images/diagrams/fig4.png" width="85%">
 </div>
-
+<div class="slider-container">
+  <div class="slider">
+    <div class="slide">
+      <img src="/assets/images/cooperation_enterprise/guangfeng.png" alt="图1">
+      <div class="caption">哈工大（深圳）与光峰科技股份有限公司共建实习基地授牌仪式</div>
+    </div>
+    <div class="slide">
+      <img src="/assets/images/cooperation_enterprise/weixing.jpg" alt="图2">
+      <div class="caption">哈尔滨工业大学（深圳）与上海卫星互联网研究院签署战略合作协议</div>
+    </div>
+  </div>
+</div>
 ### 国际合作育人方面
 &emsp;&emsp;本成果通过内部出口、外部引入以及内外协同等方式，打破国际壁垒与封锁，实现了动态自适应的内外协同育人方案，促进了人才培养模式的国际化和多元化发展，为新国际形势下具备广阔国际视野的国际化人才培养提供了新的路径。团队近年来主持国际合作项目共12项，其中中外合作办学项目1项（校区首个），世界顶尖大学战略合作计划6项、学生联合培养项目1项、港澳联合实验室（研究中心）建设项目4项。
 <div style="text-align: center;">
@@ -217,3 +228,99 @@ redirect_from:
 [https://static.nfnews.com/content/202509/17/c11734672.html?colID=0&firstColID=8114&appversion=12800&from=weChatMessage&enterColumnId=0](https://static.nfnews.com/content/202509/17/c11734672.html?colID=0&firstColID=8114&appversion=12800&from=weChatMessage&enterColumnId=0)
 
 [https://ytweb.radio.cn/share/albumPlay?correlateId=2944183&columnId=15706068580008&appUuid=561CAAA7-07C8-4D41-B8F2-B100D18C8881&appUserid=xFWTu5KL9446FDAo1ur%2Fww%3D%3D](https://ytweb.radio.cn/share/albumPlay?correlateId=2944183&columnId=15706068580008&appUuid=561CAAA7-07C8-4D41-B8F2-B100D18C8881&appUserid=xFWTu5KL9446FDAo1ur%2Fww%3D%3D)
+
+
+<style>
+.slider-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.slider {
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* CSS动画关键帧 - 8秒切换 */
+.slide:nth-child(1) {
+  animation: slideShow 16s infinite;
+}
+
+.slide:nth-child(2) {
+  animation: slideShow 16s infinite;
+  animation-delay: 8s;
+}
+
+@keyframes slideShow {
+  0%   { opacity: 0; z-index: 1; }
+  5%   { opacity: 1; z-index: 1; } /* 淡入 */
+  45%  { opacity: 1; z-index: 1; } /* 保持显示 */
+  50%  { opacity: 0; z-index: 0; } /* 淡出 */
+  100% { opacity: 0; z-index: 0; } /* 保持隐藏 */
+}
+
+/* 响应式设计 */
+@media (max-width: 850px) {
+  .slider-container {
+    max-width: 95%;
+  }
+  
+  .slider {
+    height: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .slider {
+    height: 350px;
+  }
+  
+  .caption {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider {
+    height: 300px;
+  }
+  
+  .caption {
+    padding: 10px 15px;
+  }
+}
+</style>
