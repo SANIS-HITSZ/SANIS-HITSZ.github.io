@@ -176,15 +176,26 @@ redirect_from:
 <div style="text-align: center;">
   <img src="/assets/images/diagrams/fig2.png" width="85%">
 </div>
+
 ### 师资队伍建设方面
 &emsp;&emsp;本成果通过跨校区教师协同发展、海内外人才引进、科教产业联动等多元渠道驱动（图5），推动了师资队伍的多样化建设，拓展了人才引育路径，促进了产业发展与人才培养的深度融合，构建起引进与培养并重、多学科交叉融合的高质量师资体系，为跨学科复合交叉型人才培养提供了坚实的保障。团队近年来主持人才项目共13项，培育国家级人才4人、省部级人才5人；引进国家级人才4人。
-<img src="/assets/images/diagrams/fig3.png" width="85%">
+
+<div style="text-align: center;">
+  <img src="/assets/images/diagrams/fig3.png" width="85%">
+</div>
+
 ### 创新实践培养方面
 &emsp;&emsp;本成果通过全周期贯通、产学协同和科教融合等多层次创新实践能力培养，构建了一体化贯通式的科产教融合创新实践模式，实现了学生创新思维与实践能力的双向提升，促进了学科之间的深度合作与资源共享，为培养具备多元综合能力的高素质产业人才奠定了坚实基础。学院以哈工大深厚的工科基础为“根”，以深圳的产业需求为“壤”，持续培养高质量的电子信息人才。学院在广东省教育厅、科技厅相关项目的支撑条件下，以研促教，实现产学研高度融合；与高新企业建立校企联合实验室、校外实习基地等产学研平台，深度融合培养拔尖创新人才。
-<img src="/assets/images/diagrams/fig4.png" width="85%">
+<div style="text-align: center;">
+  <img src="/assets/images/diagrams/fig4.png" width="85%">
+</div>
+
 ### 国际合作育人方面
 &emsp;&emsp;本成果通过内部出口、外部引入以及内外协同等方式，打破国际壁垒与封锁，实现了动态自适应的内外协同育人方案，促进了人才培养模式的国际化和多元化发展，为新国际形势下具备广阔国际视野的国际化人才培养提供了新的路径。团队近年来主持国际合作项目共12项，其中中外合作办学项目1项（校区首个），世界顶尖大学战略合作计划6项、学生联合培养项目1项、港澳联合实验室（研究中心）建设项目4项。
-<img src="/assets/images/diagrams/fig5.png" width="85%">
+<div style="text-align: center;">
+  <img src="/assets/images/diagrams/fig5.png" width="85%">
+</div>
+
 ## 成果应用成效
 
 ### 校内实践成效
