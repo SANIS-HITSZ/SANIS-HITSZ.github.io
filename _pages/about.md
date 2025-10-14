@@ -23,7 +23,7 @@ redirect_from:
     </div>
     <div class="slide">
       <img src="/assets/images/image_20250707152730.jpg" alt="图2">
-      <div class="caption">2024届毕业生合影</div>
+      <div class="caption">2024届硕士毕业生合影</div>
     </div>
   </div>
 </div>
