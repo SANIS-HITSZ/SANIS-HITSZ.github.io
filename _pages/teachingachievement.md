@@ -227,7 +227,7 @@ redirect_from:
       <img src="/assets/images/cooperation_international/cooperation_plan.png" alt="合作">
       <div class="caption">
         <a href="https://mp.weixin.qq.com/s?__biz=MzI1MTQyMDQ3MQ==&mid=2247488149&idx=1&sn=0c3dbd4f9d6fe39568fd91859c79ded4&chksm=e9f218cdde8591dbc61dbff9ba7eb2a7c635cf9b9d496a30457d6863eb92b3fc37d48bd04581&scene=27" target="_blank" class="caption-link">
-        韩国汉阳大学合作办学项目
+        顶尖大学合作计划
         </a>
       </div>
     </div>
