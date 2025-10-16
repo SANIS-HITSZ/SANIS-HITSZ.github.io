@@ -16,7 +16,7 @@ redirect_from:
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
   <img src="/assets/images/authors/11a5f9ba9a64f9516c2deec4db44be57.png" 
        alt="张霆廷" 
-       style="width: 120px; height: 160px; display: block; margin: 0 auto;">
+       style="width: 100px; height: 130px; display: block; margin: 0 auto;">
   <figcaption style="font-size: 16px; color: gray; margin-top: 5px; text-align: center;">
     <b><a href="https://faculty.hitsz.edu.cn/zhangtingting" target="_blank">张霆廷(主持人)</a></b>
   </figcaption>
@@ -261,6 +261,27 @@ redirect_from:
 
 ### 校际实践成效
 &emsp;&emsp;本教学成果自2021年5月推广以来，相关的创新人才培养模式及理念已辐射至**国内20余所高校**，包括上海交通大学、西安交通大学、电子科技大学、中山大学等多所985高校。截至目前，成果覆盖学生累计**超过2万人**，并获得同行专家的广泛认可与采纳，有效赋能合作院校的人才培养质量提升，并获得获得了国内外权威媒体的持续关注与广泛报道。
+### 典型案例
+<div class="student-case">
+  <img src="/assets/images/student-project.jpg" alt="学生项目展示" class="case-image">
+  
+  <div class="case-content">
+    <h2>张明：智能校园导航系统项目</h2>
+    <p><strong>项目背景：</strong>张明同学在大三上学期参与的创新实践项目，旨在解决新生在校内迷路的问题。</p>
+    <p><strong>技术栈：</strong>使用React框架开发前端界面，结合Node.js后端服务，集成百度地图API实现路径规划功能。</p>
+    <p><strong>项目亮点：</strong>
+    <ul>
+      <li>实现实时室内外导航，精度达到2米以内</li>
+      <li>开发无障碍路径规划，方便特殊需求用户</li>
+      <li>集成课程表同步，智能推荐最优路径</li>
+    </ul>
+    </p>
+    <p><strong>成果：</strong>该项目获得校级创新大赛一等奖，目前已在校园内小范围试用，用户满意度达95%。</p>
+    <p><strong>个人成长：</strong>通过这个项目，张明同学掌握了全栈开发技能，提升了项目管理和团队协作能力。</p>
+  </div>
+  <div style="clear: both;"></div>
+</div>
+
 
 ### 相关报道链接 
 
@@ -369,5 +390,77 @@ redirect_from:
   .caption {
     padding: 10px 15px;
   }
+}
+.student-case {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 15px;
+  padding: 25px;
+  margin: 30px 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border-left: 5px solid #4e54c8;
+}
+
+.case-image {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  float: left;
+  margin: 0 25px 15px 0;
+  shape-outside: ellipse(100px 150px at 50% 50%);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  border: 3px solid white;
+}
+
+.case-content h2 {
+  color: #2d3748;
+  margin-top: 0;
+  border-bottom: 2px solid #4e54c8;
+  padding-bottom: 10px;
+}
+
+.case-content p {
+  line-height: 1.8;
+  color: #4a5568;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.case-content ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.case-content li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .case-image {
+    width: 100%;
+    height: 250px;
+    float: none;
+    margin: 0 0 20px 0;
+    shape-outside: none;
+  }
+  
+  .student-case {
+    padding: 20px;
+    margin: 20px 0;
+  }
+}
+
+/* 悬停效果 */
+.case-image:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+/* 列表项美化 */
+.case-content li::marker {
+  color: #4e54c8;
+  font-size: 1.2em;
 }
 </style>
