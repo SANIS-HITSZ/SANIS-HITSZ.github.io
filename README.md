@@ -105,4 +105,7 @@ architecture.md 新增固定人员图片并附上个人主页链接。
 bug:侧边栏宽度问题（可以通过更新仓库或在\_sass\_themes.scss中的一下几行语句进行修改）
 $right-sidebar-width-narrow : auto;
 $right-sidebar-width        : auto;
-$right-sidebar-width-wide   : auto;
+$right-sidebar-width-wide   : auto;  
+# 2025/10/16 王翀
+广东省教学成果奖页面，将成果简介、成果应用成效、典型案例部分新增跳转页面，并新增相关内容。
+

@@ -11,6 +11,8 @@ redirect_from:
 {% include base_path %}
 {% include toc %}
 
+
+
 ## 成果信息
 ### 成果完成人
 <figure style="display: inline-block; text-align: center; margin: 0 20px 30px 20px;">
@@ -150,7 +152,7 @@ redirect_from:
   </figcaption>
 </figure>
 
-## 成果简介
+## [成果简介](/teachingachievement/introduction/)
 
 ### 教学问题背景
 &emsp;&emsp;本团队自2016年起对电子信息类人才培养模式进行了系统性改造和升级。在哈尔滨工业大学原有培养体系的基础上，充分融合大湾区的产业特点，以培养“厚基础、强实践、重创新、宽视野”的电子信息类拔尖创新人才为目标，围绕“如何在多维时空约束下构建高时效、强泛化、自演进的电子信息人才培养模式”这一关键科学问题，开展了充分的探索与实践，解决了以下四个方面的教学问题：
@@ -254,33 +256,63 @@ redirect_from:
     </div>
   </div>
 </div>
-## 成果应用成效
+
+## [成果应用成效](/teachingachievement/effect/)
 
 ### 校内实践成效
 该模式自2019年起实施，实践超过6年，取得显著成效。至今，已培养电子信息本科生**1321**人，毕业生获**广东省五一劳动奖章**、**[世界技能大赛冠军](https://worldskills2026.com.cn/release/1171/)**、**IEEE全球光电本科生成就奖**等荣誉。教师获得**各级教学成果奖12项**，打造了**国家/省级一流课程3门**，编写**省级优秀教材2部**，获**国家/省部级教学奖励31项**，相关成果获得《中央广播电视台大湾区之声》、《[中国商报](https://www.zgswcn.com/news.html?aid=296189)》、《深圳特区报》等权威媒体的专题报道。
 
 ### 校际实践成效
 &emsp;&emsp;本教学成果自2021年5月推广以来，相关的创新人才培养模式及理念已辐射至**国内20余所高校**，包括上海交通大学、西安交通大学、电子科技大学、中山大学等多所985高校。截至目前，成果覆盖学生累计**超过2万人**，并获得同行专家的广泛认可与采纳，有效赋能合作院校的人才培养质量提升，并获得获得了国内外权威媒体的持续关注与广泛报道。
-### 典型案例
+
+### [典型案例](/teachingachievement/example/)
 <div class="student-case">
-  <img src="/assets/images/student-project.jpg" alt="学生项目展示" class="case-image">
-  
+  <div class="case-images">
+    <img src="/assets/images/yangbang.jpg" alt="杨榜" class="case-image">
+    <img src="/assets/images/yangbang1.png" alt="杨榜" class="case-image">  
+  </div>
+
+
   <div class="case-content">
-    <h2>张明：智能校园导航系统项目</h2>
-    <p><strong>项目背景：</strong>张明同学在大三上学期参与的创新实践项目，旨在解决新生在校内迷路的问题。</p>
-    <p><strong>技术栈：</strong>使用React框架开发前端界面，结合Node.js后端服务，集成百度地图API实现路径规划功能。</p>
-    <p><strong>项目亮点：</strong>
+    <h2>杨榜：国际顶尖赛事的创新先锋</h2>
+    <p><strong>个人简介：</strong>杨榜是信科学院20级本科生，在学科竞赛领域表现卓越，多次在国际、国家级赛事中斩获重要奖项。</p>
+
+    <p><strong>主要成就：</strong></p>
     <ul>
-      <li>实现实时室内外导航，精度达到2米以内</li>
-      <li>开发无障碍路径规划，方便特殊需求用户</li>
-      <li>集成课程表同步，智能推荐最优路径</li>
+      <li>2024年10月：荣获教育部主办的 <strong>中国国际大学生创新大赛金奖</strong>（校区首个金奖）。</li>
+      <li>2025年9月：获得 <strong>IEEE光子学学会</strong> 颁发的 <strong>IEEE全球光电本科生成就奖</strong>，该奖项是光电领域国际最高荣誉之一。</li>
+      <li>2022年5月：荣获 <strong>IEEE ICRA RoboMaster高校人工智能挑战赛国际特等奖</strong>。</li>
     </ul>
-    </p>
-    <p><strong>成果：</strong>该项目获得校级创新大赛一等奖，目前已在校园内小范围试用，用户满意度达95%。</p>
-    <p><strong>个人成长：</strong>通过这个项目，张明同学掌握了全栈开发技能，提升了项目管理和团队协作能力。</p>
+
+    <p><strong>成果影响：</strong>在学院创新教育体系支持下，杨榜的科研创新能力显著提升，其成果为学院创新人才培养模式提供了示范样本。</p>
   </div>
   <div style="clear: both;"></div>
 </div>
+
+<hr>
+
+<div class="student-case">
+  <div class="case-images">
+    <img src="/assets/images/chenjun-an.png" alt="陈骏安" class="case-image">
+    <img src="/assets/images/chenjun-an1.png" alt="陈骏安" class="case-image">
+  </div>
+
+  <div class="case-content">
+    <h2>陈骏安：世界技能冠军的卓越代表</h2>
+    <p><strong>个人简介：</strong>陈骏安是信科学院16级本科生，在技能竞赛与荣誉表彰方面成绩斐然，是光电技术领域的杰出代表。</p>
+
+    <p><strong>主要成就：</strong></p>
+    <ul>
+      <li>2024年9月：荣获 <strong>第47届世界技能大赛光电技术项目冠军</strong>，为该项目中国唯一夺冠选手。</li>
+      <li>2020年12月：荣获 <strong>中华人民共和国第一届职业技能大赛光电技术项目金牌</strong>。</li>
+      <li>2020–2024年：获评 <strong>全国技术能手</strong>、<strong>全国青年岗位能手</strong>、<strong>广东省技术能手</strong>、<strong>广东省五一劳动奖章</strong>、<strong>广东省青年五四奖章</strong> 等多项荣誉。</li>
+    </ul>
+
+    <p><strong>成果影响：</strong>陈骏安的成功展示了“以赛促学、以赛促教”的教学成果，推动了光电专业技能教育的国际化发展。</p>
+  </div>
+  <div style="clear: both;"></div>
+</div>
+
 
 
 ### 相关报道链接 
@@ -391,7 +423,11 @@ redirect_from:
     padding: 10px 15px;
   }
 }
+
 .student-case {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   border-radius: 15px;
   padding: 25px;
@@ -400,16 +436,27 @@ redirect_from:
   border-left: 5px solid #4e54c8;
 }
 
+.case-images {
+  display: flex;
+  flex-direction: column; /* 两张竖排可以改成 row 横排 */
+  gap: 30px;
+  margin-right: 25px;
+}
+
 .case-image {
   width: 250px;
   height: 200px;
   object-fit: cover;
   border-radius: 10px;
-  float: left;
-  margin: 0 25px 15px 0;
-  shape-outside: ellipse(100px 150px at 50% 50%);
+  margin-right: 25px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
   border: 3px solid white;
+  flex-shrink: 0; /* 防止图片被压缩 */
+}
+
+.case-content {
+  flex: 1;
+  min-width: 300px; /* 避免在小屏幕时太窄 */
 }
 
 .case-content h2 {
