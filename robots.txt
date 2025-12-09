@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sanis-hitsz.github.io/sitemap.xml
