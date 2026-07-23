@@ -110,7 +110,7 @@ body { margin: 0; }
 .case-group summary strong { font-size: 1.3rem; }
 .case-group summary em { color: var(--muted); font-size: 0.85rem; font-style: normal; }
 .case-group[open] summary { margin-bottom: 1.5rem; }
-.article-filters { display: grid; gap: 1rem; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 2rem 0; }
+.article-filters { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); margin: 2.5rem 0 2rem; max-width: 960px; }
 .article-filters label { color: var(--muted); display: grid; font-size: 0.85rem; font-weight: 700; gap: 0.45rem; }
 .article-filters select { background: #fff; border: 1px solid var(--line); border-radius: 0; color: var(--ink); font: inherit; padding: 0.7rem 0.8rem; }
 .article-list { list-style: none; margin: 0; padding: 0; }

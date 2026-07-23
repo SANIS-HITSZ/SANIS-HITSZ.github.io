@@ -13,7 +13,7 @@ redirect_from:
   <div class="home-hero__veil"></div>
   <div class="home-hero__content">
     <p class="eyebrow">SPACE-AERIAL NETWORKING &amp; INTELLIGENT SENSING</p>
-    <h1 id="lab-title">空天网络与智能感知<span>Guangdong province Key laboratory of SPACE-AERIAL NETWORKING &amp; INTELLIGENT SENSING</span></h1>
+    <h1 id="lab-title">空天网络与智能感知<span>GUANGDONG PROVINCIAL KEY LABORATORY OF SPACE-AERIAL NETWORKING &amp; INTELLIGENT SENSING</span></h1>
     <a class="hero-scroll" href="#recent">探索近期动态</a>
   </div>
 </section>
