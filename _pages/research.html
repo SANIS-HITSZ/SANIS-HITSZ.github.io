@@ -60,3 +60,25 @@ permalink: /research/
     </div>
   </details>
 </section>
+
+<section class="research-section articles-section" aria-labelledby="articles-title">
+  <div class="section-heading">
+    <div><p>LATEST ARTICLES</p><h2 id="articles-title">课题组最新文章</h2></div>
+  </div>
+  <div class="article-filters" aria-label="文章筛选">
+    <label>研究方向<select data-article-filter="direction"><option value="all">全部方向</option><option value="isac">通信感知定位一体化</option><option value="uav">智能无人机与具身系统</option><option value="vitals">无线生命体征感知</option></select></label>
+    <label>年份<select data-article-filter="year"><option value="all">全部年份</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option></select></label>
+    <label>文章类型<select data-article-filter="type"><option value="all">全部类型</option><option value="journal">Journal</option><option value="conference">Conference</option><option value="magazine">Magazine</option></select></label>
+  </div>
+  <ul class="article-list">
+    {% for article in site.data.articles.articles %}
+      <li data-article data-direction="{{ article.direction }}" data-year="{{ article.year }}" data-type="{{ article.type }}">
+        <div><p>{{ article.type | capitalize }} · {{ article.year }}</p><h3>{% if article.url %}<a href="{{ article.url }}" target="_blank" rel="noopener">{{ article.title }}</a>{% else %}{{ article.title }}{% endif %}</h3><p>{{ article.authors }}</p></div>
+        <strong>{{ article.venue }}</strong>
+      </li>
+    {% endfor %}
+  </ul>
+  <p class="article-empty" data-article-empty>暂无公开文章。</p>
+</section>
+
+<script src="{{ base_path }}/assets/js/article-filter.js" defer></script>
