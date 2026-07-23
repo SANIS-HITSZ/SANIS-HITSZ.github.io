@@ -86,7 +86,7 @@ body { margin: 0; }
 .research-section + .research-section, .dataset-section + .dataset-section { margin-top: 5rem; }
 .area-grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .area-card { border: 1px solid var(--line); min-height: 28rem; overflow: hidden; position: relative; }
-.area-card::before { background-position: center; background-repeat: no-repeat; background-size: cover; content: ""; inset: 0; opacity: 0.12; position: absolute; }
+.area-card::before { background-position: center; background-repeat: no-repeat; background-size: cover; content: ""; inset: 0; opacity: 0.22; position: absolute; }
 .area-card--isac::before { background-image: url("/assets/images/research/isac.png"); }
 .area-card--uav::before { background-image: url("/assets/images/research/uav-mas.png"); }
 .area-card--vitals::before { background-image: url("/assets/images/research/wireless-vitals.png"); }
