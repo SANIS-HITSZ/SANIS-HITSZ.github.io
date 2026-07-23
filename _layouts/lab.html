@@ -1,0 +1,38 @@
+---
+layout: compress
+---
+{% include base_path %}
+<!doctype html>
+<html lang="zh-CN">
+  <head>{% include lab-head.html %}</head>
+  <body class="lab-site">
+    <header class="lab-header">
+      <a class="lab-wordmark" href="{{ base_path }}/">
+        <span class="lab-wordmark__tag">SANIS</span>
+        <span>空天网络与智能感知<br>重点实验室</span>
+      </a>
+      <nav class="lab-nav" aria-label="主导航">
+        {% for link in site.data.navigation.main %}
+          <a href="{{ base_path }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+      <details class="lab-menu">
+        <summary aria-label="打开导航菜单"><i></i><i></i><i></i></summary>
+        <nav aria-label="移动端主导航">
+          {% for link in site.data.navigation.main %}
+            <a href="{{ base_path }}{{ link.url }}">{{ link.title }}</a>
+          {% endfor %}
+        </nav>
+      </details>
+    </header>
+    <main>
+      <section class="page-intro">
+        <p class="page-intro__kicker">{{ page.kicker | default: "SANIS LAB" }}</p>
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+      </section>
+      <div class="page-content">{{ content }}</div>
+    </main>
+    {% include lab-footer.html %}
+  </body>
+</html>

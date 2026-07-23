@@ -8,8 +8,8 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "实验室简介"
-    url: /introduction/
+  - title: "首页"
+    url: /
 
   - title: "新闻动态"
     url: /news/    
@@ -17,11 +17,11 @@ main:
   - title: "人员构成"
     url: /architecture/
 
-  - title: "实验室成果"
+  - title: "研究方向"
     url: /research/    
     
-  - title: "广东省教学成果奖"
-    url: /teachingachievement/    
+  - title: "开源数据集"
+    url: /datasets/
   #- title: "Portfolio"
   #  url: /portfolio/
         
