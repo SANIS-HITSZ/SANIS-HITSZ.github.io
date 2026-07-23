@@ -40,6 +40,6 @@ redirect_from:
   <ul class="activity-list">
     <li><time datetime="2024">2024</time><a href="{{ base_path }}/news/">实验室组织第三届 International Workshop on Sensing Advances in Wireless Networks (SAWN)。</a></li>
     <li><time datetime="2024">2024</time><a href="{{ base_path }}/research/">通信、定位与感知一体化研究持续迭代，并开放研究案例与演示视频。</a></li>
-    <li><time datetime="2022">2022</time><a href="{{ base_path }}/datasets/">基于机器学习的 UWB-AOA 估计数据集对外开放下载。</a></li>
+    <li><time datetime="2022">2022</time><a href="{{ base_path }}/datasets/">基于机器学习的 UWB-AOA 估计数据集及实验代码对外开放。</a></li>
   </ul>
 </section>

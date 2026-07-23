@@ -1,6 +1,6 @@
 ---
 layout: lab
-title: "开源数据集"
+title: "开放资源"
 kicker: "OPEN DATA"
 subtitle: "公开研究数据、报告与代码，支持可复现的无线感知与定位研究。"
 permalink: /datasets/
