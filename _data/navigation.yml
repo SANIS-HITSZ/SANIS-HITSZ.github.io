@@ -19,6 +19,9 @@ main:
 
   - title: "研究方向"
     url: /research/    
+
+  - title: "近期成果"
+    url: /achievements/
     
   - title: "开放资源"
     url: /datasets/
