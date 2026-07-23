@@ -87,9 +87,9 @@ body { margin: 0; }
 .area-grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .area-card { border: 1px solid var(--line); min-height: 28rem; overflow: hidden; position: relative; }
 .area-card::before { background-position: center; background-repeat: no-repeat; background-size: cover; content: ""; inset: 0; opacity: 0.12; position: absolute; }
-.area-card--isac::before { background-image: url("/assets/images/image_20250707152638.jpg"); }
-.area-card--uav::before { background-image: url("/assets/images/image_20250707152730.jpg"); }
-.area-card--vitals::before { background-image: url("/assets/images/image_20250707152638.jpg"); background-position: right center; }
+.area-card--isac::before { background-image: url("/assets/images/research/isac.png"); }
+.area-card--uav::before { background-image: url("/assets/images/research/uav-mas.png"); }
+.area-card--vitals::before { background-image: url("/assets/images/research/wireless-vitals.png"); }
 .area-card__content { display: flex; flex-direction: column; height: 100%; padding: 2rem; position: relative; }
 .area-card__content > p:first-child { color: var(--blue); font-family: Arial, sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; line-height: 1.4; margin: 0; }
 .area-card:nth-child(2) .area-card__content > p:first-child { color: #b06c00; }
