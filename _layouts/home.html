@@ -1,0 +1,37 @@
+---
+layout: compress
+---
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="home-page">
+    <header class="home-header">
+      <a class="home-brand" href="{{ base_path }}/">
+        <span class="home-brand__mark" aria-hidden="true">SANIS</span>
+        <span>广东省空天网络与智能感知重点实验室</span>
+      </a>
+      <nav class="home-nav" aria-label="主导航">
+        <a href="{{ base_path }}/" aria-current="page">首页</a>
+        {% for link in site.data.navigation.main %}
+          {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+          <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+      <details class="home-menu">
+        <summary aria-label="打开导航菜单"><span></span><span></span><span></span></summary>
+        <nav aria-label="移动端主导航">
+          <a href="{{ base_path }}/">首页</a>
+          {% for link in site.data.navigation.main %}
+            {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+            <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+          {% endfor %}
+        </nav>
+      </details>
+    </header>
+    <main>{{ content }}</main>
+    <div class="page__footer"><footer>{% include footer.html %}</footer></div>
+  </body>
+</html>

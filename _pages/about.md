@@ -1,124 +1,37 @@
 ---
 permalink: /
-# layout: archive
-# title: "广东省空天网络与智能感知重点实验室"
+layout: home
+title: "广东省空天网络与智能感知重点实验室"
 author_profile: false
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 {% include base_path %}
 
-
-广东省空天网络与智能感知重点实验室
-======
-
-
-
-<div class="slider-container">
-  <div class="slider">
-    <div class="slide">
-      <img src="/assets/images/image_20250707152638.jpg" alt="图1">
-      <div class="caption">实验室挂牌仪式合影</div>
-    </div>
-    <div class="slide">
-      <img src="/assets/images/image_20250707152730.jpg" alt="图2">
-      <div class="caption">2024届硕士毕业生合影</div>
-    </div>
+<section class="home-hero" aria-labelledby="lab-title">
+  <div class="home-hero__slide">
+    <img src="{{ base_path }}/assets/images/image_20250707152638.jpg" alt="广东省空天网络与智能感知重点实验室成员合影">
   </div>
-</div>
+  <div class="home-hero__slide">
+    <img src="{{ base_path }}/assets/images/image_20250707152730.jpg" alt="实验室毕业生合影">
+  </div>
+  <div class="home-hero__content">
+    <p class="home-hero__eyebrow">SPACE-AERIAL NETWORKING &amp; INTELLIGENT SENSING</p>
+    <h1 id="lab-title">广东省空天网络与智能感知重点实验室</h1>
+    <p>面向空天网络、无线通信与智能感知的前沿问题，开展基础研究、技术创新与人才培养。</p>
+    <a class="home-hero__action" href="{{ base_path }}/introduction/">了解实验室</a>
+  </div>
+</section>
 
-<style>
-.slider-container {
-  max-width: 800px;
-  margin: 2rem auto;
-  position: relative;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.slider {
-  width: 100%;
-  height: 450px;
-  position: relative;
-}
-
-.slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-}
-
-.slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 12px 20px;
-  text-align: center;
-  font-size: 1.1rem;
-  font-weight: 500;
-}
-
-/* CSS动画关键帧 - 8秒切换 */
-.slide:nth-child(1) {
-  animation: slideShow 16s infinite;
-}
-
-.slide:nth-child(2) {
-  animation: slideShow 16s infinite;
-  animation-delay: 8s;
-}
-
-@keyframes slideShow {
-  0%   { opacity: 0; z-index: 1; }
-  5%   { opacity: 1; z-index: 1; } /* 淡入 */
-  45%  { opacity: 1; z-index: 1; } /* 保持显示 */
-  50%  { opacity: 0; z-index: 0; } /* 淡出 */
-  100% { opacity: 0; z-index: 0; } /* 保持隐藏 */
-}
-
-/* 响应式设计 */
-@media (max-width: 850px) {
-  .slider-container {
-    max-width: 95%;
-  }
-  
-  .slider {
-    height: 400px;
-  }
-}
-
-@media (max-width: 600px) {
-  .slider {
-    height: 350px;
-  }
-  
-  .caption {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .slider {
-    height: 300px;
-  }
-  
-  .caption {
-    padding: 10px 15px;
-  }
-}
-</style>
+<section class="home-news" aria-labelledby="news-heading">
+  <div class="home-section-heading">
+    <h2 id="news-heading">新闻动态</h2>
+    <a href="{{ base_path }}/news/">查看全部</a>
+  </div>
+  <ul class="home-news__list">
+    <li><a href="{{ base_path }}/news/"><time datetime="2024">2024</time>课题组组织第三届 International Workshop on Sensing Advances in Wireless Networks (SAWN)。</a></li>
+    <li><a href="{{ base_path }}/research/"><time datetime="2024">2024</time>实验室持续推进通信、定位与感知一体化研究及成果展示。</a></li>
+    <li><a href="{{ base_path }}/architecture/"><time datetime="2024">2024</time>实验室成员与毕业生共同参与空天网络与智能感知领域研究。</a></li>
+  </ul>
+</section>
