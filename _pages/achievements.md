@@ -37,7 +37,7 @@ permalink: /achievements/
 
 <section class="achievement-video" aria-labelledby="achievement-video-title">
   <div class="section-heading"><div><p>VIDEO</p><h2 id="achievement-video-title">成果答辩视频</h2></div></div>
-  <video controls preload="metadata" poster="{{ base_path }}/assets/images/diagrams/fig1.png">
+  <video controls preload="metadata">
     <source src="{{ base_path }}/assets/video/2026-guangdong-teaching-achievement.mp4" type="video/mp4">
     您的浏览器不支持 HTML5 视频播放。
   </video>
