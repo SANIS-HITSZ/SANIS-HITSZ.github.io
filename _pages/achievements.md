@@ -2,34 +2,40 @@
 layout: lab
 title: "近期成果"
 kicker: "RECENT ACHIEVEMENTS"
-subtitle: "以人才培养、产学协同与国际合作为支撑，持续推进电子信息类创新人才培养实践。"
+subtitle: "面向电子信息产业前沿，探索产教协同、跨域融合与分类发展的研究生培养模式。"
 permalink: /achievements/
 ---
 {% include base_path %}
 
-<p class="content-lead">“高时效、强泛化、自演进”的电子信息类拔尖创新人才培养模式，面向产业前沿和多维时空约束下的人才需求，构建了培养方案、师资队伍、创新实践和国际合作协同推进的实践体系。</p>
+<p class="content-lead">2026 年，团队以“校区筑基、湾区拓界”为主线，申报广东省学位与研究生教育学会优秀教学成果，探索电子信息类研究生产教跨域培养的系统路径。</p>
 
-<section class="achievement-grid">
-  <article class="achievement-card">
-    <img src="{{ base_path }}/assets/images/diagrams/fig2.png" alt="多层次人才培养方案示意图">
-    <div><p>CURRICULUM DESIGN</p><h2>培养方案构建</h2><span></span><p>围绕体系创新、课程建设与思政育人，形成适配电子信息产业前沿的交叉学科培养路径。</p></div>
-  </article>
-  <article class="achievement-card">
-    <img src="{{ base_path }}/assets/images/diagrams/fig3.png" alt="多学科交叉师资队伍示意图">
-    <div><p>FACULTY DEVELOPMENT</p><h2>师资队伍建设</h2><span></span><p>通过联合培养、人才引进和校企融汇，构建多学科交叉、面向工程实践的高质量师资体系。</p></div>
-  </article>
-  <article class="achievement-card">
-    <img src="{{ base_path }}/assets/images/diagrams/fig4.png" alt="创新实践培养示意图">
-    <div><p>INNOVATION PRACTICE</p><h2>创新实践培养</h2><span></span><p>以全周期贯通、产学协同和科教融合为路径，提升学生面向真实问题的创新思维与实践能力。</p></div>
-  </article>
-  <article class="achievement-card">
-    <img src="{{ base_path }}/assets/images/diagrams/fig5.png" alt="国际合作育人示意图">
-    <div><p>GLOBAL COLLABORATION</p><h2>国际合作育人</h2><span></span><p>通过内外协同与联合培养拓展国际视野，形成开放、多元、持续演进的人才培养生态。</p></div>
-  </article>
+<section class="achievement-spotlight" aria-labelledby="achievement-2026-title">
+  <div>
+    <p>2026 GUANGDONG TEACHING ACHIEVEMENT</p>
+    <h2 id="achievement-2026-title">“校区筑基、湾区拓界”：电子信息类研究生产教跨域培养探索与实践</h2>
+    <span></span>
+    <p>成果以企业真实问题为牵引，贯通“企业出题、学校答题、实景验题、融汇育人”全过程；通过跨校区、跨地域、跨学科资源协同，促进研究生的学术创新能力与工程实践能力协同发展。</p>
+  </div>
+  <dl class="achievement-metrics">
+    <div><dt>1,184</dt><dd>名累计培养硕博研究生</dd></div>
+    <div><dt>20+</dt><dd>家校企联合培养单位</dd></div>
+    <div><dt>151</dt><dd>项国家级、国际竞赛奖励</dd></div>
+  </dl>
 </section>
 
-<section class="achievement-summary">
-  <div><strong>2016</strong><span>起持续开展系统化人才培养改革与实践</span></div>
-  <div><strong>4</strong><span>个协同模块：培养方案、师资队伍、创新实践、国际合作</span></div>
-  <div><strong>产学研</strong><span>深度融合，服务电子信息领域高质量人才培养</span></div>
+<section class="achievement-video" aria-labelledby="achievement-video-title">
+  <div class="section-heading"><div><p>VIDEO</p><h2 id="achievement-video-title">成果答辩视频</h2></div></div>
+  <video controls preload="metadata" poster="{{ base_path }}/assets/images/diagrams/fig1.png">
+    <source src="{{ base_path }}/assets/video/2026-guangdong-teaching-achievement.mp4" type="video/mp4">
+    您的浏览器不支持 HTML5 视频播放。
+  </video>
+</section>
+
+<section class="award-history" aria-labelledby="award-history-title">
+  <div class="section-heading"><div><p>ARCHIVE</p><h2 id="award-history-title">历史奖项</h2></div></div>
+  <a class="award-history__item" href="{{ base_path }}/achievements/2025-guangdong-teaching-award/">
+    <time datetime="2025">2025</time>
+    <span><strong>广东省教学成果奖二等奖</strong><small>“高时效、强泛化、自演进”的电子信息类拔尖创新人才培养模式探索与实践</small></span>
+    <b aria-hidden="true">→</b>
+  </a>
 </section>

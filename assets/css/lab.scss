@@ -72,7 +72,7 @@ body { margin: 0; }
 .news-list time { color: var(--blue); font-family: Arial, sans-serif; font-size: 0.85rem; font-weight: 700; }
 .news-list h2 { font-size: 1.35rem; letter-spacing: 0; line-height: 1.35; margin: 0 0 0.45rem; }
 .news-list p { color: var(--muted); margin: 0; }
-.team-grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 2.5rem; }
+.team-grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 2.5rem; }
 .team-section > h2 { font-size: 1.8rem; letter-spacing: 0; margin: 0; }
 .person-card { background: var(--mist); display: grid; grid-template-columns: 11rem 1fr; min-height: 13rem; }
 .person-card img { height: 100%; object-fit: cover; width: 100%; }
@@ -138,6 +138,24 @@ body { margin: 0; }
 .achievement-summary div { border-left: 3px solid var(--teal); padding-left: 1rem; }
 .achievement-summary strong { color: var(--blue); display: block; font-family: Arial, sans-serif; font-size: 1.5rem; line-height: 1.2; }
 .achievement-summary span { color: var(--muted); display: block; font-size: 0.9rem; margin-top: 0.5rem; }
+.achievement-spotlight { background: var(--mist); display: grid; gap: 3rem; grid-template-columns: minmax(0, 1.25fr) minmax(16rem, 0.75fr); margin-top: 2.5rem; padding: 2.5rem; }
+.achievement-spotlight > div > p:first-child { color: var(--blue); font-family: Arial, sans-serif; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; margin: 0; }
+.achievement-spotlight h2 { font-size: clamp(1.8rem, 3vw, 2.8rem); letter-spacing: 0; line-height: 1.28; margin: 0.7rem 0 0; }
+.achievement-spotlight h2 + span { background: var(--teal); display: block; height: 3px; margin: 1.25rem 0; width: 3rem; }
+.achievement-spotlight > div > p:last-child { color: var(--muted); margin: 0; }
+.achievement-metrics { border-left: 1px solid var(--line); display: grid; gap: 1.25rem; margin: 0; padding-left: 2rem; }
+.achievement-metrics div { border-left: 3px solid var(--teal); padding-left: 1rem; }
+.achievement-metrics dt { color: var(--blue); font-family: Arial, sans-serif; font-size: 1.8rem; font-weight: 700; line-height: 1.2; }
+.achievement-metrics dd { color: var(--muted); font-size: 0.9rem; margin: 0.35rem 0 0; }
+.achievement-video, .award-history { margin-top: 5rem; }
+.achievement-video video { display: block; max-width: 100%; width: 100%; }
+.award-history__item { align-items: center; border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); color: var(--ink); display: grid; gap: 1.5rem; grid-template-columns: 7rem 1fr auto; padding: 1.5rem 0; text-decoration: none; }
+.award-history__item time { color: var(--blue); font-family: Arial, sans-serif; font-size: 0.85rem; font-weight: 700; }
+.award-history__item strong, .award-history__item small { display: block; }
+.award-history__item strong { font-size: 1.25rem; }
+.award-history__item small { color: var(--muted); margin-top: 0.35rem; }
+.award-history__item b { color: var(--teal); font-size: 1.5rem; }
+.award-history__item:hover strong { color: var(--blue); }
 .media-grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 2rem; }
 .media-grid iframe, .media-grid video { aspect-ratio: 16 / 9; border: 0; height: auto; width: 100%; }
 .dataset-list { display: grid; gap: 1.5rem; margin-top: 2rem; }
@@ -178,6 +196,11 @@ body { margin: 0; }
   .achievement-card { grid-template-columns: 1fr; }
   .achievement-card img { aspect-ratio: 16 / 9; height: auto; }
   .achievement-summary { grid-template-columns: 1fr; }
+  .achievement-spotlight { grid-template-columns: 1fr; padding: 1.5rem; }
+  .achievement-metrics { border-left: 0; border-top: 1px solid var(--line); padding-left: 0; padding-top: 1.5rem; }
+  .award-history__item { gap: 0.35rem; grid-template-columns: 1fr auto; }
+  .award-history__item span { grid-column: 1; grid-row: 2; }
+  .award-history__item b { grid-column: 2; grid-row: 1 / span 2; }
   .case-group summary { align-items: start; grid-template-columns: 2.5rem 1fr; }
   .case-group summary em { grid-column: 2; }
   .button-link { justify-self: start; }
